@@ -1,0 +1,32 @@
+{
+  "name": "gulp-build-atom-shell",
+  "version": "0.1.0",
+  "description": "Clone or update atom-shell repo, specify a version tag and build atom-shell then replace app folder with your atom-shell app.",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fireball-x/gulp-build-atom-shell.git"
+  },
+  "keywords": [
+    "gulp",
+    "atom-shell",
+    "build"
+  ],
+  "author": "nantas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fireball-x/gulp-build-atom-shell/issues"
+  },
+  "homepage": "https://github.com/fireball-x/gulp-build-atom-shell",
+  "devDependencies": {
+    "github-repo-from-config": "^1.0.2",
+    "gulp-download-atom-shell": "fireball-x/gulp-download-atom-shell",
+    "gulp-shell": "^0.2.11",
+    "gulp-util": "^3.0.1",
+    "wrench": "^1.5.8"
+  }
+}
