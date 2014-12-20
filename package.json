@@ -22,7 +22,7 @@
     "url": "https://github.com/fireball-x/gulp-build-atom-shell/issues"
   },
   "homepage": "https://github.com/fireball-x/gulp-build-atom-shell",
-  "devDependencies": {
+  "dependencies": {
     "github-repo-from-config": "^1.0.2",
     "gulp-download-atom-shell": "fireball-x/gulp-download-atom-shell",
     "gulp-shell": "^0.2.11",
