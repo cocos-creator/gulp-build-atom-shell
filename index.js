@@ -27,10 +27,10 @@ module.exports = {
       //});
     });
   },
-  download: function(callback) {
+  download: function(verNum, callback) {
     console.log("enter downloader");
     downloader({
-      version: '0.20.1',
+      version: verNum,
       outputDir: 'bin'
     }, function() {
       gutil.log(gutil.colors.green("Download atom-shell finished.\n"), "Atom binary created at ", gutil.colors.cyan(path.join(projectPath, 'bin/')));
