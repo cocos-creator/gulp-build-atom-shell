@@ -1,5 +1,5 @@
 var parseRepo = require('github-repo-from-config');
-var downloader = require('gulp-download-atom-shell');
+var downloader = require('gulp-download-fire-shell');
 var gutil = require('gulp-util');
 var shell = require('gulp-shell');
 var path = require('path');

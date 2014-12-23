@@ -24,7 +24,7 @@
   "homepage": "https://github.com/fireball-x/gulp-build-atom-shell",
   "dependencies": {
     "github-repo-from-config": "^1.0.2",
-    "gulp-download-atom-shell": "fireball-x/gulp-download-atom-shell",
+    "gulp-download-fire-shell": "fireball-x/gulp-download-fire-shell",
     "gulp-shell": "^0.2.11",
     "gulp-util": "^3.0.1",
     "wrench": "^1.5.8"
